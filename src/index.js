@@ -1,6 +1,4 @@
 import { fetchCoordinates } from "./coordinates.js";
-import { fetchWeatherData } from "./weatherData.js";
-// import Data from "./config.js";
 
 const weekdays = [
 	"Sunday",
@@ -87,3 +85,4 @@ submitBtn.addEventListener('click', handleForm);
 
 form.addEventListener('keydown', pressEnter);
 
+export { fetchWeatherData };

@@ -1,4 +1,4 @@
-export { fetchWeatherData };
+// export { fetchWeatherData };
 
 const fetchWeatherData = (lat, long) => {
 	const getWeatherData = fetch(

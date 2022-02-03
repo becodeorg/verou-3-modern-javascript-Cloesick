@@ -1,5 +1,4 @@
-export { fetchCoordinates };
-
+import { fetchweatherData } from 
 const fetchCoordinates = (inputCity) => {
 	// const inputCity = form.value
 	const getCoordinates = fetch(
@@ -33,3 +32,5 @@ const fetchWeatherData = (lat, long) => {
             }
         })
 }
+
+export { fetchCoordinates };
