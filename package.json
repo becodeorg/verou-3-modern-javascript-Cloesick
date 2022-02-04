@@ -1,27 +1,29 @@
 {
-	"name": "verou-3-modern-javascript-cloesick",
-	"version": "1.0.0",
-	"description": "Since I struggled with the refactoring of my weather app I got the permission from Bert  to work with Cynthia on Cynthia's weather app for the sake of the exercise. Like this I would be able to get the different steps done with Cynthia. The version used is the one of Cynthia after the refractoring. So this starts from the modules ( import and export )",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "webpack --mode development",
-		"watch": "webpack --watch --mode development"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/becodeorg/verou-3-modern-javascript-Cloesick.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/becodeorg/verou-3-modern-javascript-Cloesick/issues"
-	},
-	"homepage": "https://github.com/becodeorg/verou-3-modern-javascript-Cloesick#readme",
-	"devDependencies": {
-		"eslint": "^8.8.0",
-		"webpack": "^5.68.0",
-		"webpack-cli": "^4.9.2"
-	}
+  "name": "verou-3-modern-javascript-cloesick",
+  "version": "1.0.0",
+  "description": "Since I struggled with the refactoring of my weather app I got the permission from Bert  to work with Cynthia on Cynthia's weather app for the sake of the exercise. Like this I would be able to get the different steps done with Cynthia. The version used is the one of Cynthia after the refractoring. So this starts from the modules ( import and export )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development",
+    "watch": "webpack --watch --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becodeorg/verou-3-modern-javascript-Cloesick.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/becodeorg/verou-3-modern-javascript-Cloesick/issues"
+  },
+  "homepage": "https://github.com/becodeorg/verou-3-modern-javascript-Cloesick#readme",
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0",
+    "prettier": "2.5.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
 }
