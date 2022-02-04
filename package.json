@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "webpack --mode development"
+		"dev": "webpack --mode development",
+		"watch": "webpack --watch --mode development"
 	},
 	"repository": {
 		"type": "git",
@@ -19,10 +20,8 @@
 	},
 	"homepage": "https://github.com/becodeorg/verou-3-modern-javascript-Cloesick#readme",
 	"devDependencies": {
+		"eslint": "^8.8.0",
 		"webpack": "^5.68.0",
 		"webpack-cli": "^4.9.2"
-	},
-	"dependencies": {
-		"luxon": "^2.3.0"
 	}
 }
